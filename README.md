@@ -4,9 +4,9 @@ Tip #456: Guage/Speedometer SwiftUI. Create an interactive speedometer that cont
 
 Link to tutorial: https://medium.com/dev-genius/ios-how-create-gaugeview-speedometer-using-swiftui-ae46778e042f
 
-
 What I Used.
-IDE Version: Xcode 11.5
-Swift Version: 5.2
-Xcode Template: Single View Application
+IDE Version: Xcode 12
+Swift Version: 5.3
 User Interface: SwiftUI
+Life Cycle: SwiftUI App
+Language: Swift
