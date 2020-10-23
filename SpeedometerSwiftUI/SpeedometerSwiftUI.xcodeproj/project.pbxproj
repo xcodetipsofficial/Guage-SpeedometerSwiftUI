@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB099015253BEA8100965A5F /* SpeedometerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB099014253BEA8100965A5F /* SpeedometerSwiftUIApp.swift */; };
+		AB099017253BEA8100965A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB099016253BEA8100965A5F /* ContentView.swift */; };
+		AB099019253BEA8200965A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB099018253BEA8200965A5F /* Assets.xcassets */; };
+		AB09901C253BEA8200965A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB09901B253BEA8200965A5F /* Preview Assets.xcassets */; };
+		AB099027253BEA8200965A5F /* SpeedometerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB099026253BEA8200965A5F /* SpeedometerSwiftUITests.swift */; };
+		AB099032253BEA8200965A5F /* SpeedometerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB099031253BEA8200965A5F /* SpeedometerSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB099023253BEA8200965A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB099009253BEA8100965A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB099010253BEA8100965A5F;
+			remoteInfo = SpeedometerSwiftUI;
+		};
+		AB09902E253BEA8200965A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB099009253BEA8100965A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB099010253BEA8100965A5F;
+			remoteInfo = SpeedometerSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB099011253BEA8100965A5F /* SpeedometerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedometerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB099014253BEA8100965A5F /* SpeedometerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerSwiftUIApp.swift; sourceTree = "<group>"; };
+		AB099016253BEA8100965A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB099018253BEA8200965A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB09901B253BEA8200965A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB09901D253BEA8200965A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB099022253BEA8200965A5F /* SpeedometerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedometerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB099026253BEA8200965A5F /* SpeedometerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerSwiftUITests.swift; sourceTree = "<group>"; };
+		AB099028253BEA8200965A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB09902D253BEA8200965A5F /* SpeedometerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedometerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB099031253BEA8200965A5F /* SpeedometerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerSwiftUIUITests.swift; sourceTree = "<group>"; };
+		AB099033253BEA8200965A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB09900E253BEA8100965A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09901F253BEA8200965A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09902A253BEA8200965A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB099008253BEA8100965A5F = {
+			isa = PBXGroup;
+			children = (
+				AB099013253BEA8100965A5F /* SpeedometerSwiftUI */,
+				AB099025253BEA8200965A5F /* SpeedometerSwiftUITests */,
+				AB099030253BEA8200965A5F /* SpeedometerSwiftUIUITests */,
+				AB099012253BEA8100965A5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB099012253BEA8100965A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB099011253BEA8100965A5F /* SpeedometerSwiftUI.app */,
+				AB099022253BEA8200965A5F /* SpeedometerSwiftUITests.xctest */,
+				AB09902D253BEA8200965A5F /* SpeedometerSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB099013253BEA8100965A5F /* SpeedometerSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				AB099014253BEA8100965A5F /* SpeedometerSwiftUIApp.swift */,
+				AB099016253BEA8100965A5F /* ContentView.swift */,
+				AB099018253BEA8200965A5F /* Assets.xcassets */,
+				AB09901D253BEA8200965A5F /* Info.plist */,
+				AB09901A253BEA8200965A5F /* Preview Content */,
+			);
+			path = SpeedometerSwiftUI;
+			sourceTree = "<group>";
+		};
+		AB09901A253BEA8200965A5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB09901B253BEA8200965A5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB099025253BEA8200965A5F /* SpeedometerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB099026253BEA8200965A5F /* SpeedometerSwiftUITests.swift */,
+				AB099028253BEA8200965A5F /* Info.plist */,
+			);
+			path = SpeedometerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		AB099030253BEA8200965A5F /* SpeedometerSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB099031253BEA8200965A5F /* SpeedometerSwiftUIUITests.swift */,
+				AB099033253BEA8200965A5F /* Info.plist */,
+			);
+			path = SpeedometerSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB099010253BEA8100965A5F /* SpeedometerSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB099036253BEA8200965A5F /* Build configuration list for PBXNativeTarget "SpeedometerSwiftUI" */;
+			buildPhases = (
+				AB09900D253BEA8100965A5F /* Sources */,
+				AB09900E253BEA8100965A5F /* Frameworks */,
+				AB09900F253BEA8100965A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedometerSwiftUI;
+			productName = SpeedometerSwiftUI;
+			productReference = AB099011253BEA8100965A5F /* SpeedometerSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB099021253BEA8200965A5F /* SpeedometerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB099039253BEA8200965A5F /* Build configuration list for PBXNativeTarget "SpeedometerSwiftUITests" */;
+			buildPhases = (
+				AB09901E253BEA8200965A5F /* Sources */,
+				AB09901F253BEA8200965A5F /* Frameworks */,
+				AB099020253BEA8200965A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB099024253BEA8200965A5F /* PBXTargetDependency */,
+			);
+			name = SpeedometerSwiftUITests;
+			productName = SpeedometerSwiftUITests;
+			productReference = AB099022253BEA8200965A5F /* SpeedometerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB09902C253BEA8200965A5F /* SpeedometerSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB09903C253BEA8200965A5F /* Build configuration list for PBXNativeTarget "SpeedometerSwiftUIUITests" */;
+			buildPhases = (
+				AB099029253BEA8200965A5F /* Sources */,
+				AB09902A253BEA8200965A5F /* Frameworks */,
+				AB09902B253BEA8200965A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB09902F253BEA8200965A5F /* PBXTargetDependency */,
+			);
+			name = SpeedometerSwiftUIUITests;
+			productName = SpeedometerSwiftUIUITests;
+			productReference = AB09902D253BEA8200965A5F /* SpeedometerSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB099009253BEA8100965A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AB099010253BEA8100965A5F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AB099021253BEA8200965A5F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AB099010253BEA8100965A5F;
+					};
+					AB09902C253BEA8200965A5F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AB099010253BEA8100965A5F;
+					};
+				};
+			};
+			buildConfigurationList = AB09900C253BEA8100965A5F /* Build configuration list for PBXProject "SpeedometerSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB099008253BEA8100965A5F;
+			productRefGroup = AB099012253BEA8100965A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB099010253BEA8100965A5F /* SpeedometerSwiftUI */,
+				AB099021253BEA8200965A5F /* SpeedometerSwiftUITests */,
+				AB09902C253BEA8200965A5F /* SpeedometerSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB09900F253BEA8100965A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB09901C253BEA8200965A5F /* Preview Assets.xcassets in Resources */,
+				AB099019253BEA8200965A5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB099020253BEA8200965A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09902B253BEA8200965A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB09900D253BEA8100965A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB099017253BEA8100965A5F /* ContentView.swift in Sources */,
+				AB099015253BEA8100965A5F /* SpeedometerSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09901E253BEA8200965A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB099027253BEA8200965A5F /* SpeedometerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB099029253BEA8200965A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB099032253BEA8200965A5F /* SpeedometerSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB099024253BEA8200965A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB099010253BEA8100965A5F /* SpeedometerSwiftUI */;
+			targetProxy = AB099023253BEA8200965A5F /* PBXContainerItemProxy */;
+		};
+		AB09902F253BEA8200965A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB099010253BEA8100965A5F /* SpeedometerSwiftUI */;
+			targetProxy = AB09902E253BEA8200965A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB099034253BEA8200965A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB099035253BEA8200965A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB099037253BEA8200965A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedometerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpeedometerSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.SpeedometerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB099038253BEA8200965A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedometerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpeedometerSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.SpeedometerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB09903A253BEA8200965A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				INFOPLIST_FILE = SpeedometerSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.SpeedometerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedometerSwiftUI.app/SpeedometerSwiftUI";
+			};
+			name = Debug;
+		};
+		AB09903B253BEA8200965A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				INFOPLIST_FILE = SpeedometerSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.SpeedometerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedometerSwiftUI.app/SpeedometerSwiftUI";
+			};
+			name = Release;
+		};
+		AB09903D253BEA8200965A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				INFOPLIST_FILE = SpeedometerSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.SpeedometerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedometerSwiftUI;
+			};
+			name = Debug;
+		};
+		AB09903E253BEA8200965A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				INFOPLIST_FILE = SpeedometerSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.SpeedometerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedometerSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB09900C253BEA8100965A5F /* Build configuration list for PBXProject "SpeedometerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB099034253BEA8200965A5F /* Debug */,
+				AB099035253BEA8200965A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB099036253BEA8200965A5F /* Build configuration list for PBXNativeTarget "SpeedometerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB099037253BEA8200965A5F /* Debug */,
+				AB099038253BEA8200965A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB099039253BEA8200965A5F /* Build configuration list for PBXNativeTarget "SpeedometerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09903A253BEA8200965A5F /* Debug */,
+				AB09903B253BEA8200965A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB09903C253BEA8200965A5F /* Build configuration list for PBXNativeTarget "SpeedometerSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09903D253BEA8200965A5F /* Debug */,
+				AB09903E253BEA8200965A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB099009253BEA8100965A5F /* Project object */;
+}
